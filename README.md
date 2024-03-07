@@ -24,4 +24,4 @@ This is a simple website template for a cryptocurrency token project. It include
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/crypto-token-website.git
+git clone https://github.com/cryptodeta/create-crypto-token-website
