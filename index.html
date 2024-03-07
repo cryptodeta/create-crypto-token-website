@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Token Website</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- Custom CSS -->
+<style>
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #292b2c !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Header */
+.header {
+  background-image: url('https://via.placeholder.com/1500x800');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+}
+
+/* Features Section */
+.features-section {
+  padding: 100px 0;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 1.1rem;
+}
+
+/* Team Section */
+.team-section {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.team-member h5 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 0;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-control {
+  border-radius: 0;
+  border-color: #007bff;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: bold;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #292b2c;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+  <a class="navbar-brand" href="#">Crypto Token</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#features">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!-- Header -->
+<section id="home" class="header">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Welcome to Crypto Token</h1>
+      <p>A decentralized solution for your financial needs</p>
+      <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+<div class="container">
+  <h2>About Crypto Token</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id purus eget massa convallis fermentum.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="https://via.placeholder.com/600x400" alt="About Crypto Token" class="img-fluid">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features-section">
+<div class="container">
+  <h2>Features</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="feature">
+        <i class="fas fa-lock"></i>
+        <h3>Secure Transactions</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature">
+        <i class="fas fa-rocket"></i>
+        <h3>Fast Payments</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature">
+        <i class="fas fa-globe"></i>
+        <h3>Global Access</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="team-section">
+<div class="container">
+  <h2>Our Team</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300" alt="Team Member" class="img-fluid">
+        <h5>John Doe</h5>
+        <p>Co-founder</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300" alt="Team Member" class="img-fluid">
+        <h5>Jane Doe</h5>
+        <p>Developer</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/300" alt="Team Member" class="img-fluid">
+        <h5>Bob Smith</h5>
+        <p>Designer</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+<div class="container">
+  <h2>Contact Us</h2>
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+  <p>&copy; 2024 Crypto Token</p>
+</div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
