@@ -6,7 +6,7 @@ This is a simple website template for a cryptocurrency token project. It include
 
 ## Preview
 
-[https://cryptodeta.com/wp-content/uploads/2024/03/Untitled412452-design.webp]
+![Website Preview](https://github.com/cryptodeta/create-crypto-token-website/blob/main/Screenshot%202024-03-07%20191323.png)
 
 ## Features
 
